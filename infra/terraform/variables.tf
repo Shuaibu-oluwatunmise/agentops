@@ -13,7 +13,7 @@ variable "cluster_name" {
 variable "k8s_version" {
   description = "Kubernetes version for the cluster"
   type        = string
-  default     = "1.27"
+  default     = "1.28"
 }
 
 variable "subnet_ids" {

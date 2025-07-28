@@ -140,7 +140,7 @@ resource "aws_eks_node_group" "workers" {
 
   instance_types = ["t3.micro"]
 
-  ami_type = "AL2_x86_64"
+  ami_type = "BOTTLEROCKET_x86_64"
 
   depends_on = [
     aws_iam_role_policy_attachment.cluster_policy,
